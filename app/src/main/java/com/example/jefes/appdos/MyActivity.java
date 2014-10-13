@@ -27,6 +27,11 @@ public class MyActivity extends Activity implements View.OnClickListener {
         }
     }
 
+    public void buttonClicked(View v){
+        Button boton = (Button)v;
+        boton.setText("Ouch");
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){

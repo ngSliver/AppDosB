@@ -16,5 +16,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/click"
-        android:id="@+id/Tocame"/>
+        android:id="@+id/Tocame"
+        android:background="@drawable/nice_shape"
+        android:padding="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click"
+        android:id="@+id/TocameDos"
+        android:onClick="buttonClicked" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/nice_shape"
+        android:contentDescription="@string/pic"/>
 </LinearLayout>
