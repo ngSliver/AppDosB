@@ -14,6 +14,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         int i = 0;
+        int j = 1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
         theButton = (Button)findViewById(R.id.Tocame);
